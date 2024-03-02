@@ -23,7 +23,7 @@ const [response, setResponse] = useState('')
           }, (error) => {
               console.log(error.text);
           });
-          setResponse('Registracija sekminga')
+          setResponse('Registracija sėkminga')
           e.target.reset()
       };
 
