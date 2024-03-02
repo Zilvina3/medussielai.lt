@@ -23,7 +23,7 @@ const [response, setResponse] = useState('')
           }, (error) => {
               console.log(error.text);
           });
-          setResponse('Jūsu žinutė išsiųsta')
+          setResponse('Registracija sekminga')
           e.target.reset()
       };
 
