@@ -3,6 +3,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Conections from './Components/Conections/Conections';
 import Consultation from './Components/Consultation/Consultation';
 import Contact from './Components/Contact/Contact';
+import EventReg from './Components/Contact/EventReg';
 import Events from './Components/Events/Events';
 import Home from './Components/Home/Home';
 import Layout from './Components/Layout/Layout';
@@ -20,7 +21,7 @@ function App() {
       <Route path={'/Apie'} element={<Layout><AboutMe /></Layout>} />
       <Route path={'/konsultacija'} element={<Layout><Consultation /></Layout>} />
       <Route path={'/suderinimas'} element={<Layout><Conections/></Layout>} />
-      {/* <Route path={'/spauda'} element={<Layout><News /></Layout>} /> */}
+      <Route path={'/registruotis'} element={<Layout><EventReg /></Layout>} />
       <Route path={'/renginiai'} element={<Layout><Events /></Layout>} />
       <Route path={'*'} element={<Layout><WrongPath /></Layout>} />
     </Routes>

@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react'
 import { useNavigate } from 'react-router-dom'
+import ostara from './Ostara.jpg'
 
 export const RevealOnScroll2 = ({ children, effect }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -81,24 +82,28 @@ export default function Events() {
       }, [])
   
   return (
-    <main className='bg-black min-h-screen secondBg'>
-        <section className='container m-auto p-32'>
+    <main className='min-h-screen pt-8 bg-black font-serif'>
+        <section className='container m-auto p-32 max-sm:p-8'>
 
-        <h1 className=' text-4xl mb-40 text-center text-orange-300'>Renginiai</h1>
+        <h1 className=' text-4xl mb-20 text-center text-orange-300'>Renginiai</h1>
+
+        <div className='flex justify-center w-full mb-24'>
+              <img src={ostara} alt="Neringa" width={600}/>
+            </div>
 
           {renginiai.map((item, count)=>{
             return(
                <RevealOnScroll2 key={count}>
-                <div className='flex justify-center flex-wrap py-16 '>
+                <div className='flex justify-center flex-wrap py-16'>
               <h1 className='text-3xl text-center  text-orange-300'>{item.name}</h1>
               <p className='p-5  text-xl text-justify text-white max-sm:text-xl  lg:my-8'>{item.description}</p>
               {item.name == "Samainas" ? <p className='px-5 pb-12 text-xl text-justify text-white max-sm:text-xl  '>Dievo kaip sūnaus ir mylimojo vaidmuo yra grindžiamas Deivės trejybę. Deivė reprezentuoja tris gyvybės etapus – jaunystę, brandą ir senatvę. Pradžioje metų, kai Deivė grįžta iš požemių į šviesą, ji išgyvena savo jaunystės periodą bei kartu su Dievu bręsta. Tai Deivė – mergelė. Per Belteiną Deivė simbolizuojama kaip subrendusi moteris, kuri yra pasiruošusi susijungti su Dievu. Pagimdžiusi Dievą, Deivė – senė, keliauja į požemius tam, kad vėl grįžtų atjaunėjusi ir kupina jėgų į ilgėjančių dienų naująjį metų ciklą. 
                 <br /> <br /> Šis mitas pasakoja apie gimimo, meilės ir mirties misteriją.
               </p>: ""}
-              <div className='text-center mb-12'>
+              <div className='text-center mb-12 max-sm:my-8'>
                 <button className="bg-orange-300 font-bold hover:bg-orange-500 text-gray-800
-          py-4 px-12   rounded-xl shadow-md hover:trasition hover:-translate-y-1 duration-300 delay-100"
-            onClick={() => {navigate('/susisiekti')}}
+          py-4 px-12   rounded-xl shadow-md hover:trasition hover:-translate-y-1 duration-300 delay-100 "
+            onClick={() => {navigate('/registruotis')}}
             >Registruotis į renginį</button>
               </div>
               </div>
