@@ -47,7 +47,7 @@ export default function Events() {
     },
     {
       name: "Imbolkas",
-      description: "Imbolkas(vasario 2 d.) - tai pirmasis Deivės pasirodymas po Dievo gimimo. Ilgėjanti diena pažadina Ją. Dievas - mažas berniukas, bet jo jėgą galima pajusti ilgėjančiose dienose. Šilta, apvaisinta žemė (Deivė) verčia sėklas augti. Tai vyksta ankstyvą pavasarį. Tai apvalymo Šabašas po uždaro žiemos gyvenimo. Tai šviesos ir vaisingumo šventė. Imbolkas žinomas kaip Deglų šventė, Oimelkas, Luperkalija, Pano šventė, Brigitos šventė ir t. t."
+      description: "Imbolkas (vasario 2 d.) - tai pirmasis Deivės pasirodymas po Dievo gimimo. Ilgėjanti diena pažadina Ją. Dievas - mažas berniukas, bet jo jėgą galima pajusti ilgėjančiose dienose. Šilta, apvaisinta žemė (Deivė) verčia sėklas augti. Tai vyksta ankstyvą pavasarį. Tai apvalymo Šabašas po uždaro žiemos gyvenimo. Tai šviesos ir vaisingumo šventė. Imbolkas žinomas kaip Deglų šventė, Oimelkas, Luperkalija, Pano šventė, Brigitos šventė ir t. t."
     },
     {
       name: "Ostara",
@@ -55,23 +55,23 @@ export default function Events() {
     },
     {
       name: "Belteinas",
-      description: "Belteinas(balandžio30) - tai jauno Dievo įžengimas į brandą. Judindamas gamtos energijas, jis geidžia Deivės. Jie, kupini meilės, susijungia, guli tarp žolių ir gėlių. Deivė pastoja nuo Dievo švenčiaM Deivės vaisingumą. Belteinas seniai švenčiamas festivaliais ir ritualais. Gegužės kartis, kuri naudojama senuose angliškose kaimo šventėse, turi falo formą. Tą dieną žmonės renka gėles ir puošią kartį prie savo namų. Gelės ir žaluma simbolizuoja Deivę, o kartis – Dievą. Per Beltainą švenčia gyvybės, aistros ir vilties sugrįžimą. Kartis iki šiol naudojamas per Belteiną, tačiau katilas užima pagrindinę vietą, jis yra Deivės simbolis, karties priešingybė."
+      description: "Belteinas (balandžio30) - tai jauno Dievo įžengimas į brandą. Judindamas gamtos energijas, jis geidžia Deivės. Jie, kupini meilės, susijungia, guli tarp žolių ir gėlių. Deivė pastoja nuo Dievo švenčiaM Deivės vaisingumą. Belteinas seniai švenčiamas festivaliais ir ritualais. Gegužės kartis, kuri naudojama senuose angliškose kaimo šventėse, turi falo formą. Tą dieną žmonės renka gėles ir puošią kartį prie savo namų. Gelės ir žaluma simbolizuoja Deivę, o kartis – Dievą. Per Beltainą švenčia gyvybės, aistros ir vilties sugrįžimą. Kartis iki šiol naudojamas per Belteiną, tačiau katilas užima pagrindinę vietą, jis yra Deivės simbolis, karties priešingybė."
     },
     {
       name: "Lita",
-      description: "Lita(birželio 21 d.) - vidurvasaris, ilgiausia metų diena (sekundžių tikslumu). Tai laikas, kai gamtos jėgos pasiekia aukščiausią tašką. Laužas šiuo laiku simbolizuoja Saulę. Tą dieną šokinėjama per laužą, taip apvalant save, siekiant sveikatos, meilės ir vaisingumo. Tai geriausias laikas bet kokio pobūdžio magijai."
+      description: "Lita (birželio 21 d.) - vidurvasaris, ilgiausia metų diena (sekundžių tikslumu). Tai laikas, kai gamtos jėgos pasiekia aukščiausią tašką. Laužas šiuo laiku simbolizuoja Saulę. Tą dieną šokinėjama per laužą, taip apvalant save, siekiant sveikatos, meilės ir vaisingumo. Tai geriausias laikas bet kokio pobūdžio magijai."
     },
     {
       name: "Lugnasadas",
-      description: "Lugnasadas(rugpjūčio 1 d.) – pirmojo derliaus laikas. Augalai pradeda džiūti, vaisiai sunoksta. Mistiškai tas pats vyksta ir su Dievu: jis praranda savo galią, kaip ir saulė, kuri vis linksta toliau į pietus, mažėja dienos ilgumas. Deivė žiūri liūdnai ir tuo pat džiaugsmingai, žinodama, kad Dievas mirs ir atgims, ir vėl sedės šalia jos. Vasara baigėsi, tačiau prisimena jos šiluma ir dosnumas tam maistui, kurį jie vartoja. Kiekvienas valgymas – tai vienybės su gamta aktas."
+      description: "Lugnasadas (rugpjūčio 1 d.) – pirmojo derliaus laikas. Augalai pradeda džiūti, vaisiai sunoksta. Mistiškai tas pats vyksta ir su Dievu: jis praranda savo galią, kaip ir saulė, kuri vis linksta toliau į pietus, mažėja dienos ilgumas. Deivė žiūri liūdnai ir tuo pat džiaugsmingai, žinodama, kad Dievas mirs ir atgims, ir vėl sedės šalia jos. Vasara baigėsi, tačiau prisimena jos šiluma ir dosnumas tam maistui, kurį jie vartoja. Kiekvienas valgymas – tai vienybės su gamta aktas."
     },
     {
       name: "Mabonas",
-      description: "Mabonas(rugsėjo 21 d.) - rudens lygiadienis, derliaus nuėmimo pabaiga, kuris prasidėjo per Lugnasadą. Dar kartą diena ir naktis susilygino. Dievas yra pasiruošęs apleisti savo fizinį kūną ir iškeliauti vėl prie savo pradžios. Gamta virsta, atiduoda savo dosnumą, ruošiasi žiemai, poilsio metui. Deivė snaudžia, besišildydama silpnoje saulės šilumoje, nors liepsna dar dega jos įsčiose. Ji jaučia Dievą, netgi nusilpusį."
+      description: "Mabonas (rugsėjo 21 d.) - rudens lygiadienis, derliaus nuėmimo pabaiga, kuris prasidėjo per Lugnasadą. Dar kartą diena ir naktis susilygino. Dievas yra pasiruošęs apleisti savo fizinį kūną ir iškeliauti vėl prie savo pradžios. Gamta virsta, atiduoda savo dosnumą, ruošiasi žiemai, poilsio metui. Deivė snaudžia, besišildydama silpnoje saulės šilumoje, nors liepsna dar dega jos įsčiose. Ji jaučia Dievą, netgi nusilpusį."
     },
     {
       name: "Samainas",
-      description: "Per Samainą(spalio 31 d.) raganos ir raganiai atsisveikina su Dievu. Tai laikinas atsisveikinimas. Jis niekur nedingsta, bet pasiruošęs būti pagimdytas Deivės per Jolę. Samainas žinomas kaip Mirties šventė, Obuolių diena, Halous, kartais yra švenčiama kaip aukojimo dieną. Tai diena, kai nudobiami gyvuliai ir ruošiamos maisto atsargos žiemai. Samainas – tai atspindžių diena, kada atsisukama į praėjusius metus, suprantant, kad mes negalim vadovauti mirčiai. Tą naktį vyksta fizinės ir dvasinės realybės sujudimai. Šią dieną atsiveria portalas tarp mirusiųjų ir gyvųjų pasalių, bendraujam su savo mirusiais protėviai bei prisimena visus tuos, kurie paliko gyvuosius."
+      description: "Per Samainą (spalio 31 d.) raganos ir raganiai atsisveikina su Dievu. Tai laikinas atsisveikinimas. Jis niekur nedingsta, bet pasiruošęs būti pagimdytas Deivės per Jolę. Samainas žinomas kaip Mirties šventė, Obuolių diena, Halous, kartais yra švenčiama kaip aukojimo dieną. Tai diena, kai nudobiami gyvuliai ir ruošiamos maisto atsargos žiemai. Samainas – tai atspindžių diena, kada atsisukama į praėjusius metus, suprantant, kad mes negalim vadovauti mirčiai. Tą naktį vyksta fizinės ir dvasinės realybės sujudimai. Šią dieną atsiveria portalas tarp mirusiųjų ir gyvųjų pasalių, bendraujam su savo mirusiais protėviai bei prisimena visus tuos, kurie paliko gyvuosius."
     }
   ]
 
