@@ -1,0 +1,23 @@
+* {
+    color: white;
+}
+
+@font-face {
+    font-family: angelF;
+    src: url(angel.ttf);
+}
+
+
+.main {
+    background-color: #030303;
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.angel {
+    font-family: angelF;
+}
+
+

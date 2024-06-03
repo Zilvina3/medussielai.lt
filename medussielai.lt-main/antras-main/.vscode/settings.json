@@ -1,0 +1,7 @@
+{
+    "cSpell.words": [
+        "tailwindcss"
+    ],
+    "css.lint.unknownAtRules": "ignore",
+    "cSpell.enabled": false
+}
